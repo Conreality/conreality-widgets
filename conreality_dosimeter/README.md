@@ -1,4 +1,4 @@
-# dosimeter
+# conreality_dosimeter
 
 A new Flutter package project.
 

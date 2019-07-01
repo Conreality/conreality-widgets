@@ -1,6 +1,6 @@
 /* This is free and unencumbered software released into the public domain. */
 
-library dosimeter;
+library conreality_dosimeter;
 
 import 'dart:async' show Timer;
 

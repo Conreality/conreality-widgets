@@ -2,7 +2,7 @@
 
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:dosimeter/dosimeter.dart';
+import 'package:conreality_dosimeter/dosimeter.dart';
 
 void main() {
   // TODO
