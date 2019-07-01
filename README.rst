@@ -14,6 +14,8 @@ Conreality Widgets
 
 https://wiki.conreality.org/Widgets
 
+----
+
 conreality_camera
 =================
 
@@ -28,6 +30,8 @@ conreality_camera
 ::
 
    import 'package:conreality_camera/conreality_camera.dart';
+
+----
 
 conreality_chat
 ===============
@@ -44,6 +48,8 @@ conreality_chat
 
    import 'package:conreality_chat/conreality_chat.dart';
 
+----
+
 conreality_compass
 ==================
 
@@ -58,6 +64,8 @@ conreality_compass
 ::
 
    import 'package:conreality_compass/conreality_compass.dart';
+
+----
 
 conreality_dosimeter
 ====================
@@ -74,6 +82,8 @@ conreality_dosimeter
 
    import 'package:conreality_dosimeter/conreality_dosimeter.dart';
 
+----
+
 conreality_login
 ================
 
@@ -88,6 +98,8 @@ conreality_login
 ::
 
    import 'package:conreality_login/conreality_login.dart';
+
+----
 
 conreality_map
 ==============
@@ -104,6 +116,8 @@ conreality_map
 
    import 'package:conreality_map/conreality_map.dart';
 
+----
+
 conreality_replay
 =================
 
@@ -118,6 +132,8 @@ conreality_replay
 ::
 
    import 'package:conreality_replay/conreality_replay.dart';
+
+----
 
 conreality_tracker
 ==================

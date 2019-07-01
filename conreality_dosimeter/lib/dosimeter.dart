@@ -2,36 +2,52 @@
 
 library conreality_dosimeter;
 
-import 'dart:async' show Timer;
+import 'dart:async' show StreamSubscription;
 
 import 'package:flutter/material.dart';
 
 class Dosimeter extends StatefulWidget {
-  Dosimeter({Key key}) : super(key: key);
+  final String unit;
+  final Stream<double> stream;
+  final TextStyle style;
+
+  Dosimeter({Key key, this.unit = "mrem/h", this.stream, this.style}) : super(key: key);
 
   @override
   State<Dosimeter> createState() => _DosimeterState();
 }
 
 class _DosimeterState extends State<Dosimeter> {
-  Timer _timer;
+  StreamSubscription<double> _subscription;
+  double _measurement = 0;
 
   @override
   void initState() {
     super.initState();
-    _timer = Timer.periodic(Duration(seconds: 1), (_) {
-      setState(() {});
+    _subscription = widget.stream.listen((double) {
+      setState(() {
+        _measurement = _measurement + 1; // TODO
+      });
     });
   }
 
   @override
-  void dispose() {
+  void dispose() async {
     super.dispose();
-    _timer.cancel();
+    await _subscription.cancel();
   }
 
   @override
   Widget build(final BuildContext context) {
-    return Text("TODO"); // TODO
+    final ThemeData theme = Theme.of(context);
+    final TextStyle style = widget.style ?? theme.textTheme.title.copyWith(fontSize: 56.0);
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: <Widget>[
+        Text(_measurement.toString(), style: style),
+        Text(widget.unit),
+      ],
+    );
   }
 }
