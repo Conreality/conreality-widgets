@@ -20,3 +20,9 @@ Installation
       git:
         url: https://github.com/conreality/conreality-widgets.git
         path: conreality_login
+
+### `android/app/src/main/AndroidManifest.xml`
+
+    <manifest ...
+      <!-- See: https://developer.android.com/reference/android/Manifest.permission#INTERNET -->
+      <uses-permission android:name="android.permission.INTERNET"/>

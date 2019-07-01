@@ -23,12 +23,37 @@ Installation
 
 ### `android/app/src/main/AndroidManifest.xml`
 
-TODO
+    <manifest ...
+      <!-- See: https://developer.android.com/reference/android/Manifest.permission#ACCESS_FINE_LOCATION -->
+      <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <manifest ...
+      <application ...
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="YOUR KEY HERE"/>
 
 ### `ios/Runner/AppDelegate.swift`
 
-TODO
+    --- a/ios/Runner/AppDelegate.swift
+    +++ b/ios/Runner/AppDelegate.swift
+    @@ -1,5 +1,6 @@
+     import UIKit
+     import Flutter
+    +import GoogleMaps
+    
+     @UIApplicationMain
+     @objc class AppDelegate: FlutterAppDelegate {
+    @@ -7,6 +8,7 @@ import Flutter
+         _ application: UIApplication,
+         didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?
+       ) -> Bool {
+    +    GMSServices.provideAPIKey("YOUR KEY HERE") // TODO
+         GeneratedPluginRegistrant.register(with: self)
+         return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+       }
 
 ### `ios/Runner/Info.plist`
 
-TODO
+    <plist ...
+      <dict ...
+        <key>io.flutter.embedded_views_preview</key>
+        <true/>

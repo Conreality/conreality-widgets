@@ -21,9 +21,17 @@ Installation
         url: https://github.com/conreality/conreality-widgets.git
         path: conreality_camera
 
+### `android/app/src/main/AndroidManifest.xml`
+
+    <manifest ...
+      <!-- See: https://developer.android.com/reference/android/Manifest.permission#CAMERA -->
+      <uses-permission android:name="android.permission.CAMERA"/>
+
 ### `ios/Runner/Info.plist`
 
-    <key>NSCameraUsageDescription</key>
-    <string>Can I use the camera please?</string>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>Can I use the mic please?</string>
+    <plist ...
+      <dict ...
+        <key>NSCameraUsageDescription</key>
+        <string>Can I use the camera please?</string>
+        <key>NSMicrophoneUsageDescription</key>
+        <string>Can I use the mic please?</string>
