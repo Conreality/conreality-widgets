@@ -1,7 +1,3 @@
-library conreality_map;
+/* This is free and unencumbered software released into the public domain. */
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+library conreality_map;

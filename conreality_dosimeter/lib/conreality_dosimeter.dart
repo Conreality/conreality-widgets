@@ -1,3 +1,5 @@
 /* This is free and unencumbered software released into the public domain. */
 
-library conreality_compass;
+library conreality_dosimeter;
+
+export 'dosimeter.dart';
