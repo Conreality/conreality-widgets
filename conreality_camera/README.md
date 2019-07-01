@@ -21,6 +21,12 @@ Installation
         url: https://github.com/conreality/conreality-widgets.git
         path: conreality_camera
 
+### `android/app/build.gradle`
+
+    android {
+        defaultConfig {
+            minSdkVersion 21 // Android 5.0 (Lollipop)
+
 ### `android/app/src/main/AndroidManifest.xml`
 
     <manifest ...
