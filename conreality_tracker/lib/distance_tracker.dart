@@ -2,7 +2,7 @@
 
 library conreality_tracker;
 
-import 'dart:async' show StreamSubscription;
+import 'dart:async' show Stream, StreamSubscription;
 
 import 'package:flutter/material.dart';
 
@@ -24,9 +24,9 @@ class _DistanceTrackerState extends State<DistanceTracker> {
   @override
   void initState() {
     super.initState();
-    _subscription = widget.stream.listen((double) {
+    _subscription = widget.stream.listen((double measurement) {
       setState(() {
-        _measurement = _measurement + 1; // TODO
+        _measurement = measurement;
       });
     });
   }
@@ -40,7 +40,7 @@ class _DistanceTrackerState extends State<DistanceTracker> {
   @override
   Widget build(final BuildContext context) {
     final ThemeData theme = Theme.of(context);
-    final TextStyle style = widget.style ?? theme.textTheme.title.copyWith(fontSize: 56.0);
+    final TextStyle style = widget.style ?? theme.textTheme.title.copyWith(fontSize: 56);
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
