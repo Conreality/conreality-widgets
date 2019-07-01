@@ -1,8 +1,9 @@
-name: dosimeter
-description: A new Flutter package project.
+name: conreality_dosimeter
+description: >-
+  A personal radiation dosimeter (Geiger counter) widget for Conreality games.
 version: 0.0.1
-author:
-homepage:
+author: Conreality.org <conreality@googlegroups.com>
+homepage: https://github.com/conreality/conreality-widgets/tree/master/conreality_dosimeter
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
