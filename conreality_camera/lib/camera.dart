@@ -29,7 +29,7 @@ class _CameraState extends State<Camera> {
 
   @override
   Widget build(final BuildContext context) {
-    if (!controller.value.isInitialized) {
+    if (controller == null || !controller.value.isInitialized) {
       return Container();
     }
     return AspectRatio(
