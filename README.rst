@@ -139,6 +139,18 @@ conreality_compass
 conreality_countdown
 ====================
 
+::
+
+   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_countdown
+   conreality_countdown:
+     git:
+       url: https://github.com/conreality/conreality-widgets.git
+       path: conreality_countdown
+
+::
+
+   import 'package:conreality_countdown/conreality_countdown.dart';
+
 ----
 
 conreality_dosimeter
@@ -161,20 +173,68 @@ conreality_dosimeter
 conreality_fonts
 ================
 
+::
+
+   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_fonts
+   conreality_fonts:
+     git:
+       url: https://github.com/conreality/conreality-widgets.git
+       path: conreality_fonts
+
+::
+
+   import 'package:conreality_fonts/conreality_fonts.dart';
+
 ----
 
 conreality_gamepad
 ==================
+
+::
+
+   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_gamepad
+   conreality_gamepad:
+     git:
+       url: https://github.com/conreality/conreality-widgets.git
+       path: conreality_gamepad
+
+::
+
+   import 'package:conreality_gamepad/conreality_gamepad.dart';
 
 ----
 
 conreality_icons
 ================
 
+::
+
+   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_icons
+   conreality_icons:
+     git:
+       url: https://github.com/conreality/conreality-widgets.git
+       path: conreality_icons
+
+::
+
+   import 'package:conreality_icons/conreality_icons.dart';
+
 ----
 
 conreality_joystick
 ===================
+
+::
+
+   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_joystick
+   conreality_joystick:
+     git:
+       url: https://github.com/conreality/conreality-widgets.git
+       path: conreality_joystick
+
+::
+
+   import 'package:conreality_joystick/conreality_joystick.dart';
 
 ----
 
@@ -197,6 +257,18 @@ conreality_login
 
 conreality_logo
 ===============
+
+::
+
+   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_logo
+   conreality_logo:
+     git:
+       url: https://github.com/conreality/conreality-widgets.git
+       path: conreality_logo
+
+::
+
+   import 'package:conreality_logo/conreality_logo.dart';
 
 ----
 
@@ -253,6 +325,9 @@ conreality_tracker
 
 See Also
 ========
+
+- `Conreality Plugins
+  <https://github.com/conreality/conreality-plugins>`__
 
 - `Conreality Developer App
   <https://github.com/conreality/conreality-developer>`__
