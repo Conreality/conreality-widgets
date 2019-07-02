@@ -34,7 +34,7 @@ class _CompassState extends State<Compass> {
   @override
   void dispose() async {
     super.dispose();
-    await _subscription.cancel();
+    await _subscription?.cancel();
   }
 
   @override

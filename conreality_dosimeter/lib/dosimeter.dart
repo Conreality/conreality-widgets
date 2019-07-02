@@ -34,7 +34,7 @@ class _DosimeterState extends State<Dosimeter> {
   @override
   void dispose() async {
     super.dispose();
-    await _subscription.cancel();
+    await _subscription?.cancel();
   }
 
   @override

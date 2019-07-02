@@ -33,7 +33,7 @@ class _MapState extends State<Map> {
   @override
   void dispose() async {
     super.dispose();
-    await _subscription.cancel();
+    await _subscription?.cancel();
   }
 
   @override
