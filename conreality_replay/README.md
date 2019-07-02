@@ -3,7 +3,7 @@ conreality_replay
 
 [![Project license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
 
-A game history replay widget for Conreality games.
+Game history replay widgets for Conreality games.
 
 Compatibility
 -------------

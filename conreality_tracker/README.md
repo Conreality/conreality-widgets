@@ -3,7 +3,7 @@ conreality_tracker
 
 [![Project license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
 
-A directional tracker widget for Conreality games.
+Directional and distance tracker widgets for Conreality games.
 
 Compatibility
 -------------

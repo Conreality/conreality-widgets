@@ -32,7 +32,7 @@ Overview
      - Functional but barebones
 
    * - `conreality_chat <#conreality_chat>`__
-     - Team chat widget.
+     - Team chat widgets.
      - Planning
 
    * - `conreality_compass <#conreality_compass>`__
@@ -41,7 +41,7 @@ Overview
 
    * - `conreality_countdown <#conreality_countdown>`__
      - Countdown timer widget.
-     - Planning
+     - Development
 
    * - `conreality_dosimeter <#conreality_dosimeter>`__
      - Personal radiation dosimeter (Geiger counter) widget.
@@ -49,7 +49,7 @@ Overview
 
    * - `conreality_fonts <#conreality_fonts>`__
      - Conreality font assets.
-     - Planning
+     - Development
 
    * - `conreality_gamepad <#conreality_gamepad>`__
      - Gamepad widget for robot control.
@@ -57,19 +57,19 @@ Overview
 
    * - `conreality_icons <#conreality_icons>`__
      - Conreality icon assets.
-     - Planning
+     - Development
 
    * - `conreality_joystick <#conreality_joystick>`__
      - Joystick widget for robot control.
-     - Planning
+     - Development
 
    * - `conreality_login <#conreality_login>`__
      - Login form widgets.
      - Planning
 
    * - `conreality_logo <#conreality_logo>`__
-     - Conreality logo asset.
-     - Planning
+     - Conreality logo assets.
+     - Development
 
    * - `conreality_map <#conreality_map>`__
      - Game map and marker widgets.

@@ -3,7 +3,7 @@ conreality_joystick
 
 [![Project license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
 
-Joystick widget for robot control in Conreality games.
+A joystick widget for robot control in Conreality games.
 
 Compatibility
 -------------

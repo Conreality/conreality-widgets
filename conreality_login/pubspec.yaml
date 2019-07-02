@@ -1,6 +1,6 @@
 name: conreality_login
 description: >-
-  A login widget for Conreality games.
+  Login form widgets for Conreality games.
 version: 0.0.1
 author: Conreality.org <conreality@googlegroups.com>
 homepage: https://github.com/conreality/conreality-widgets/tree/master/conreality_login

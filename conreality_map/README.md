@@ -3,7 +3,7 @@ conreality_map
 
 [![Project license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
 
-A game map widget for Conreality games.
+Game map and marker widgets for Conreality games.
 
 Compatibility
 -------------

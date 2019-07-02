@@ -1,6 +1,6 @@
 name: conreality_map
 description: >-
-  A game map widget for Conreality games.
+  Game map and marker widgets for Conreality games.
 version: 0.0.1
 author: Conreality.org <conreality@googlegroups.com>
 homepage: https://github.com/conreality/conreality-widgets/tree/master/conreality_map

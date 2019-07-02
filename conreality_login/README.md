@@ -3,7 +3,7 @@ conreality_login
 
 [![Project license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
 
-A login widget for Conreality games.
+Login form widgets for Conreality games.
 
 Compatibility
 -------------

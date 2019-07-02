@@ -1,6 +1,6 @@
 name: conreality_joystick
 description: >-
-  Joystick widget for robot control in Conreality games.
+  A joystick widget for robot control in Conreality games.
 version: 0.0.1
 author: Conreality.org <conreality@googlegroups.com>
 homepage: https://github.com/conreality/conreality-widgets/tree/master/conreality_joystick
