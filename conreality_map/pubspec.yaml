@@ -6,7 +6,8 @@ author: Conreality.org <conreality@googlegroups.com>
 homepage: https://github.com/conreality/conreality-widgets/tree/master/conreality_map
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.0 <3.0.0"
+  flutter: ">=1.5.4-hotfix.2 <2.0.0"
 
 dependencies:
   flutter:
