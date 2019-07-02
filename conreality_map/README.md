@@ -10,6 +10,15 @@ Compatibility
 
 Android and iOS both.
 
+Examples
+--------
+
+### Importing the package
+
+```dart
+import 'package:conreality_map/conreality_map.dart';
+```
+
 Installation
 ------------
 

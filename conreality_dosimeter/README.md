@@ -10,6 +10,15 @@ Compatibility
 
 Android and iOS both.
 
+Examples
+--------
+
+### Importing the package
+
+```dart
+import 'package:conreality_dosimeter/conreality_dosimeter.dart';
+```
+
 Installation
 ------------
 

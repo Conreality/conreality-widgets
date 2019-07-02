@@ -10,6 +10,15 @@ Compatibility
 
 Android and iOS both.
 
+Examples
+--------
+
+### Importing the package
+
+```dart
+import 'package:conreality_tracker/conreality_tracker.dart';
+```
+
 Installation
 ------------
 

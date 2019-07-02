@@ -10,6 +10,15 @@ Compatibility
 
 Android and iOS both.
 
+Examples
+--------
+
+### Importing the package
+
+```dart
+import 'package:conreality_camera/conreality_camera.dart';
+```
+
 Installation
 ------------
 
