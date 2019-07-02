@@ -16,6 +16,75 @@ https://wiki.conreality.org/Widgets
 
 ----
 
+Overview
+========
+
+.. list-table::
+   :widths: 20 60 20
+   :header-rows: 1
+
+   * - Widget
+     - Summary
+     - Status
+
+   * - `conreality_camera <#conreality_camera>`__
+     - Augmented-reality camera widget.
+     - Functional but barebones
+
+   * - `conreality_chat <#conreality_chat>`__
+     - Team chat widget.
+     - Planning
+
+   * - `conreality_compass <#conreality_compass>`__
+     - Compass widget.
+     - Functional but barebones
+
+   * - `conreality_countdown <#conreality_countdown>`__
+     - Countdown timer widget.
+     - Planning
+
+   * - `conreality_dosimeter <#conreality_dosimeter>`__
+     - Personal radiation dosimeter (Geiger counter) widget.
+     - Functional but barebones
+
+   * - `conreality_fonts <#conreality_fonts>`__
+     - Conreality font assets.
+     - Planning
+
+   * - `conreality_gamepad <#conreality_gamepad>`__
+     - Gamepad widget for robot control.
+     - Planning
+
+   * - `conreality_icons <#conreality_icons>`__
+     - Conreality icon assets.
+     - Planning
+
+   * - `conreality_joystick <#conreality_joystick>`__
+     - Joystick widget for robot control.
+     - Planning
+
+   * - `conreality_login <#conreality_login>`__
+     - Login form widgets.
+     - Planning
+
+   * - `conreality_logo <#conreality_logo>`__
+     - Conreality logo asset.
+     - Planning
+
+   * - `conreality_map <#conreality_map>`__
+     - Game map and marker widgets.
+     - Functional
+
+   * - `conreality_replay <#conreality_replay>`__
+     - Game history replay widgets.
+     - Planning
+
+   * - `conreality_tracker <#conreality_tracker>`__
+     - Directional and distance tracker widgets.
+     - Functional but barebones
+
+----
+
 conreality_camera
 =================
 
@@ -67,6 +136,11 @@ conreality_compass
 
 ----
 
+conreality_countdown
+====================
+
+----
+
 conreality_dosimeter
 ====================
 
@@ -84,6 +158,26 @@ conreality_dosimeter
 
 ----
 
+conreality_fonts
+================
+
+----
+
+conreality_gamepad
+==================
+
+----
+
+conreality_icons
+================
+
+----
+
+conreality_joystick
+===================
+
+----
+
 conreality_login
 ================
 
@@ -98,6 +192,11 @@ conreality_login
 ::
 
    import 'package:conreality_login/conreality_login.dart';
+
+----
+
+conreality_logo
+===============
 
 ----
 
