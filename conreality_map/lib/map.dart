@@ -2,52 +2,79 @@
 
 library conreality_map;
 
-import 'dart:async' show Stream, StreamSubscription;
+import 'dart:async' show Completer, Stream, StreamSubscription;
 
 import 'package:flutter/material.dart';
-import 'package:latlong/latlong.dart' show LatLng;
+import 'package:google_maps_flutter/google_maps_flutter.dart'
+    show
+        BitmapDescriptor,
+        CameraPosition,
+        CameraUpdate,
+        GoogleMap,
+        GoogleMapController,
+        InfoWindow,
+        LatLng,
+        MapType,
+        Marker,
+        MarkerId;
 
 class Map extends StatefulWidget {
-  final Stream<LatLng> stream;
+  final LatLng initialLocation;
+  final Stream<LatLng> currentLocation;
 
-  Map({Key key, this.stream}) : super(key: key);
+  Map({Key key, @required this.initialLocation, this.currentLocation})
+      : super(key: key);
 
   @override
   State<Map> createState() => _MapState();
 }
 
 class _MapState extends State<Map> {
-  StreamSubscription<LatLng> _subscription;
   LatLng _location;
+  StreamSubscription<LatLng> _locationSubscription;
+  Completer<GoogleMapController> _controller = Completer();
+  Marker selfMarker = Marker(
+    markerId: MarkerId("self"),
+    position: null,
+    icon: BitmapDescriptor.defaultMarker, // TODO
+    infoWindow: InfoWindow(title: "Self"),
+  );
 
   @override
   void initState() {
     super.initState();
-    _subscription = widget.stream.listen((final LatLng location) {
-      setState(() {
-        _location = location; // TODO
-      });
-    });
+    _location = widget.initialLocation;
+    if (widget.currentLocation != null) {
+      _locationSubscription = widget.currentLocation.listen(_setLocation);
+    }
   }
 
   @override
   void dispose() async {
     super.dispose();
-    await _subscription?.cancel();
+    await _locationSubscription?.cancel();
   }
 
   @override
   Widget build(final BuildContext context) {
-    final ThemeData theme = Theme.of(context);
-    final TextStyle style = theme.textTheme.title.copyWith(fontSize: 48);
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: <Widget>[
-        Text((_location?.latitude ?? 0).toString(), style: style),
-        Text(", ", style: style),
-        Text((_location?.longitude ?? 0).toString(), style: style),
-      ],
+    return GoogleMap(
+      mapType: MapType.hybrid,
+      initialCameraPosition: CameraPosition(target: _location, zoom: 16),
+      compassEnabled: true,
+      onMapCreated: (final GoogleMapController controller) {
+        _controller.complete(controller);
+      },
+      markers: <Marker>{
+        selfMarker.copyWith(positionParam: _location),
+      },
     );
+  }
+
+  void _setLocation(final LatLng location) async {
+    setState(() {
+      _location = location;
+    });
+    final GoogleMapController controller = await _controller.future;
+    controller.moveCamera(CameraUpdate.newLatLng(location));
   }
 }

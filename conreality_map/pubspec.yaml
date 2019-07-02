@@ -12,7 +12,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  latlong: ^0.6.1
   google_maps_flutter: ^0.5.19
 
 dev_dependencies:
