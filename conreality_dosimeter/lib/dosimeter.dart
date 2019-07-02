@@ -11,7 +11,8 @@ class Dosimeter extends StatefulWidget {
   final Stream<double> stream;
   final TextStyle style;
 
-  Dosimeter({Key key, this.unit = "mrem/h", this.stream, this.style}) : super(key: key);
+  Dosimeter({Key key, this.unit = "mrem/h", this.stream, this.style})
+      : super(key: key);
 
   @override
   State<Dosimeter> createState() => _DosimeterState();
@@ -40,7 +41,8 @@ class _DosimeterState extends State<Dosimeter> {
   @override
   Widget build(final BuildContext context) {
     final ThemeData theme = Theme.of(context);
-    final TextStyle style = widget.style ?? theme.textTheme.title.copyWith(fontSize: 56);
+    final TextStyle style =
+        widget.style ?? theme.textTheme.title.copyWith(fontSize: 56);
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,

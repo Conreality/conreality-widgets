@@ -11,7 +11,8 @@ class DistanceTracker extends StatefulWidget {
   final Stream<double> stream;
   final TextStyle style;
 
-  DistanceTracker({Key key, this.unit = "meters", this.stream, this.style}) : super(key: key);
+  DistanceTracker({Key key, this.unit = "meters", this.stream, this.style})
+      : super(key: key);
 
   @override
   State<DistanceTracker> createState() => _DistanceTrackerState();
@@ -40,7 +41,8 @@ class _DistanceTrackerState extends State<DistanceTracker> {
   @override
   Widget build(final BuildContext context) {
     final ThemeData theme = Theme.of(context);
-    final TextStyle style = widget.style ?? theme.textTheme.title.copyWith(fontSize: 56);
+    final TextStyle style =
+        widget.style ?? theme.textTheme.title.copyWith(fontSize: 56);
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,

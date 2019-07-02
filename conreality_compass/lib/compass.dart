@@ -11,7 +11,8 @@ class Compass extends StatefulWidget {
   final Stream<int> stream;
   final TextStyle style;
 
-  Compass({Key key, this.unit = "°", this.stream, this.style}) : super(key: key);
+  Compass({Key key, this.unit = "°", this.stream, this.style})
+      : super(key: key);
 
   @override
   State<Compass> createState() => _CompassState();
@@ -40,7 +41,8 @@ class _CompassState extends State<Compass> {
   @override
   Widget build(final BuildContext context) {
     final ThemeData theme = Theme.of(context);
-    final TextStyle style = widget.style ?? theme.textTheme.title.copyWith(fontSize: 56);
+    final TextStyle style =
+        widget.style ?? theme.textTheme.title.copyWith(fontSize: 56);
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
