@@ -21,7 +21,7 @@ abstract class B612 {
   static TextStyle get bold =>
       TextStyle(fontFamily: fontFamily, fontWeight: FontWeight.bold);
 
-  /// The combiend bold and italic [TextStyle] for this font.
+  /// The combined bold and italic [TextStyle] for this font.
   static TextStyle get boldItalic => TextStyle(
       fontFamily: fontFamily,
       fontWeight: FontWeight.bold,
