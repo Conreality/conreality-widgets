@@ -9,9 +9,11 @@ import 'package:flutter/material.dart';
 class Dosimeter extends StatefulWidget {
   final String unit;
   final Stream<double> stream;
-  final TextStyle style;
+  final String fontFamily;
+  final TextStyle numberStyle;
+  final TextStyle unitsStyle;
 
-  Dosimeter({Key key, this.unit = "mrem/h", this.stream, this.style})
+  Dosimeter({Key key, this.unit = "mrem/h", this.stream, this.fontFamily, this.numberStyle, this.unitsStyle})
       : super(key: key);
 
   @override
@@ -41,14 +43,16 @@ class _DosimeterState extends State<Dosimeter> {
   @override
   Widget build(final BuildContext context) {
     final ThemeData theme = Theme.of(context);
-    final TextStyle style =
-        widget.style ?? theme.textTheme.title.copyWith(fontSize: 56);
+    final TextStyle numberStyle =
+        widget.numberStyle ?? theme.textTheme.title.copyWith(fontFamily: widget.fontFamily, fontSize: 56);
+    final TextStyle unitsStyle =
+        widget.unitsStyle ?? theme.textTheme.subtitle.copyWith(fontFamily: widget.fontFamily);
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
-        Text(_measurement.toString(), style: style),
-        Text(widget.unit),
+        Text(_measurement.toString(), style: numberStyle),
+        Text(widget.unit, style: unitsStyle),
       ],
     );
   }
