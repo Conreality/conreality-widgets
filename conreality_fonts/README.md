@@ -3,7 +3,7 @@ conreality_fonts
 
 [![Project license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
 
-Font assets for Conreality games.
+Font assets (B612 and B612 Mono) for Conreality games.
 
 Compatibility
 -------------

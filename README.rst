@@ -49,7 +49,7 @@ Overview
 
    * - `conreality_fonts <#conreality_fonts>`__
      - Conreality font assets.
-     - Development
+     - Functional
 
    * - `conreality_gamepad <#conreality_gamepad>`__
      - Gamepad widget for robot control.

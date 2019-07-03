@@ -1,6 +1,6 @@
 name: conreality_fonts
 description: >-
-  Font assets for Conreality games.
+  Font assets (B612 and B612 Mono) for Conreality games.
 version: 0.0.1
 author: Conreality.org <conreality@googlegroups.com>
 homepage: https://github.com/conreality/conreality-widgets/tree/master/conreality_fonts
@@ -18,3 +18,26 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
+  fonts:
+    - family: B612
+      fonts:
+        - asset: fonts/b612/B612-Regular.ttf
+          style: normal
+        - asset: fonts/b612/B612-Italic.ttf
+          style: italic
+        - asset: fonts/b612/B612-Bold.ttf
+          weight: 700
+        - asset: fonts/b612/B612-BoldItalic.ttf
+          weight: 700
+          style: italic
+    - family: B612Mono
+      fonts:
+        - asset: fonts/b612/B612Mono-Regular.ttf
+          style: normal
+        - asset: fonts/b612/B612Mono-Italic.ttf
+          style: italic
+        - asset: fonts/b612/B612Mono-Bold.ttf
+          weight: 700
+        - asset: fonts/b612/B612Mono-BoldItalic.ttf
+          weight: 700
+          style: italic
