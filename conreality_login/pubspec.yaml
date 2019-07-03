@@ -1,7 +1,8 @@
+# See: https://dart.dev/tools/pub/pubspec
 name: conreality_login
+version: 0.0.1
 description: >-
   Login form widgets for Conreality games.
-version: 0.0.1
 author: Conreality.org <conreality@googlegroups.com>
 homepage: https://github.com/conreality/conreality-widgets/tree/master/conreality_login
 
