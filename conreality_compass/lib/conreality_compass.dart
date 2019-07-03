@@ -1,6 +1,8 @@
 /* This is free and unencumbered software released into the public domain. */
 
 /// A compass widget for Conreality games.
+///
+/// {@canonicalFor compass.Compass}
 library conreality_compass;
 
-export 'compass.dart';
+export 'compass.dart' show Compass;
