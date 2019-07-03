@@ -5,10 +5,6 @@ To-Dos
 Packages to be Added
 ====================
 
-- conreality_logo
+- conreality_detector
 
-- conreality_fonts
-
-- conreality_icons
-
-- conreality_countdown
+- conreality_scene
