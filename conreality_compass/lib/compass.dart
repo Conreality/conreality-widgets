@@ -9,9 +9,10 @@ import 'package:flutter/material.dart';
 class Compass extends StatefulWidget {
   final String unit;
   final Stream<int> stream;
+  final String fontFamily;
   final TextStyle style;
 
-  Compass({Key key, this.unit = "°", this.stream, this.style})
+  Compass({Key key, this.unit = "°", this.stream, this.fontFamily, this.style})
       : super(key: key);
 
   @override
@@ -42,7 +43,7 @@ class _CompassState extends State<Compass> {
   Widget build(final BuildContext context) {
     final ThemeData theme = Theme.of(context);
     final TextStyle style =
-        widget.style ?? theme.textTheme.title.copyWith(fontSize: 56);
+        widget.style ?? theme.textTheme.title.copyWith(fontFamily: widget.fontFamily, fontSize: 56);
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
