@@ -3,7 +3,7 @@ name: conreality_dosimeter
 version: 0.0.1
 description: >-
   A personal radiation dosimeter (Geiger counter) widget for Conreality games.
-author: Conreality.org <conreality@googlegroups.com>
+author: Conreality Team <conreality@googlegroups.com>
 homepage: https://github.com/conreality/conreality-widgets/tree/master/conreality_dosimeter
 
 environment:
