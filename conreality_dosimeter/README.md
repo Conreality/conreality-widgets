@@ -3,7 +3,7 @@ conreality_dosimeter
 
 [![Project license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
 
-A personal radiation dosimeter (Geiger counter) widget for Conreality games.
+A personal radiation dosimeter (Geiger counter) widget for Conreality live-action games.
 
 Compatibility
 -------------
@@ -22,10 +22,11 @@ import 'package:conreality_dosimeter/conreality_dosimeter.dart';
 Installation
 ------------
 
-### `pubspec.yaml`
+### `pubspec.yaml` using Git
 
-    # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_dosimeter
-    conreality_dosimeter:
-      git:
-        url: https://github.com/conreality/conreality-widgets.git
-        path: conreality_dosimeter
+    dependencies:
+      # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_dosimeter
+      conreality_dosimeter:
+        git:
+          url: https://github.com/conreality/conreality-widgets.git
+          path: conreality_dosimeter

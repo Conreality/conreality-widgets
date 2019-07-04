@@ -5,7 +5,7 @@ conreality_fonts
 [![Pub package](https://img.shields.io/pub/v/conreality_fonts.svg)](https://pub.dev/packages/conreality_fonts)
 [![Dartdoc reference](https://img.shields.io/badge/dartdoc-reference-blue.svg)](https://pub.dev/documentation/conreality_fonts/latest/)
 
-Font assets (B612 and B612 Mono) for Conreality games.
+Font assets (in particular, the B612 font) for Conreality live-action games.
 
 Compatibility
 -------------
@@ -36,10 +36,16 @@ Text("Hello, world!", style: B612Mono.normal)
 Installation
 ------------
 
-### `pubspec.yaml`
+### `pubspec.yaml` using Pub
 
-    # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_fonts
-    conreality_fonts:
-      git:
-        url: https://github.com/conreality/conreality-widgets.git
-        path: conreality_fonts
+    dependencies:
+      conreality_fonts: ^1.0.0
+
+### `pubspec.yaml` using Git
+
+    dependencies:
+      # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_fonts
+      conreality_fonts:
+        git:
+          url: https://github.com/conreality/conreality-widgets.git
+          path: conreality_fonts

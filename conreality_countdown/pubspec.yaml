@@ -2,7 +2,7 @@
 name: conreality_countdown
 version: 0.0.1
 description: >-
-  A countdown timer widget for Conreality games.
+  A countdown timer widget for Conreality live-action games.
 author: Conreality Team <conreality@googlegroups.com>
 homepage: https://github.com/conreality/conreality-widgets/tree/master/conreality_countdown
 

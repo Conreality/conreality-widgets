@@ -3,7 +3,7 @@ conreality_countdown
 
 [![Project license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
 
-A countdown timer widget for Conreality games.
+A countdown timer widget for Conreality live-action games.
 
 Compatibility
 -------------
@@ -22,10 +22,11 @@ import 'package:conreality_countdown/conreality_countdown.dart';
 Installation
 ------------
 
-### `pubspec.yaml`
+### `pubspec.yaml` using Git
 
-    # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_countdown
-    conreality_countdown:
-      git:
-        url: https://github.com/conreality/conreality-widgets.git
-        path: conreality_countdown
+    dependencies:
+      # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_countdown
+      conreality_countdown:
+        git:
+          url: https://github.com/conreality/conreality-widgets.git
+          path: conreality_countdown

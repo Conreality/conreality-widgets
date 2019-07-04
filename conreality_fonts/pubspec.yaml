@@ -2,7 +2,7 @@
 name: conreality_fonts
 version: 1.0.0
 description: >-
-  Font assets (B612 and B612 Mono) for Conreality games.
+  Font assets (in particular, the B612 font) for Conreality live-action games.
 author: Conreality Team <conreality@googlegroups.com>
 homepage: https://github.com/conreality/conreality-widgets/tree/master/conreality_fonts
 

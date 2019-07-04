@@ -3,7 +3,7 @@ conreality_icons
 
 [![Project license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
 
-Icon assets for Conreality games.
+Icon assets for Conreality live-action games.
 
 Compatibility
 -------------
@@ -22,10 +22,11 @@ import 'package:conreality_icons/conreality_icons.dart';
 Installation
 ------------
 
-### `pubspec.yaml`
+### `pubspec.yaml` using Git
 
-    # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_icons
-    conreality_icons:
-      git:
-        url: https://github.com/conreality/conreality-widgets.git
-        path: conreality_icons
+    dependencies:
+      # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_icons
+      conreality_icons:
+        git:
+          url: https://github.com/conreality/conreality-widgets.git
+          path: conreality_icons

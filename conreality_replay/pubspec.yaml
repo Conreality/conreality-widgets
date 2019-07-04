@@ -2,7 +2,7 @@
 name: conreality_replay
 version: 0.0.1
 description: >-
-  Game history replay widgets for Conreality games.
+  Game history replay widgets for Conreality live-action games.
 author: Conreality Team <conreality@googlegroups.com>
 homepage: https://github.com/conreality/conreality-widgets/tree/master/conreality_replay
 

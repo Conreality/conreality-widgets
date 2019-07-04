@@ -2,7 +2,7 @@
 name: conreality_gamepad
 version: 0.0.1
 description: >-
-  A gamepad widget for robot control in Conreality games.
+  A gamepad widget for robot control in Conreality live-action games.
 author: Conreality Team <conreality@googlegroups.com>
 homepage: https://github.com/conreality/conreality-widgets/tree/master/conreality_gamepad
 

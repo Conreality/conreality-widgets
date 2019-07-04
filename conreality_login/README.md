@@ -3,7 +3,7 @@ conreality_login
 
 [![Project license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
 
-Login form widgets for Conreality games.
+Login form widgets for Conreality live-action games.
 
 Compatibility
 -------------
@@ -22,13 +22,14 @@ import 'package:conreality_login/conreality_login.dart';
 Installation
 ------------
 
-### `pubspec.yaml`
+### `pubspec.yaml` using Git
 
-    # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_login
-    conreality_login:
-      git:
-        url: https://github.com/conreality/conreality-widgets.git
-        path: conreality_login
+    dependencies:
+      # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_login
+      conreality_login:
+        git:
+          url: https://github.com/conreality/conreality-widgets.git
+          path: conreality_login
 
 ### `android/app/src/main/AndroidManifest.xml`
 

@@ -3,7 +3,7 @@ conreality_map
 
 [![Project license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
 
-Game map and marker widgets for Conreality games.
+Game map and marker widgets for Conreality live-action games.
 
 Compatibility
 -------------
@@ -22,13 +22,14 @@ import 'package:conreality_map/conreality_map.dart';
 Installation
 ------------
 
-### `pubspec.yaml`
+### `pubspec.yaml` using Git
 
-    # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_map
-    conreality_map:
-      git:
-        url: https://github.com/conreality/conreality-widgets.git
-        path: conreality_map
+    dependencies:
+      # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_map
+      conreality_map:
+        git:
+          url: https://github.com/conreality/conreality-widgets.git
+          path: conreality_map
 
 ### `android/app/src/main/AndroidManifest.xml`
 

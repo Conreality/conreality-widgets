@@ -1,6 +1,7 @@
 /* This is free and unencumbered software released into the public domain. */
 
-/// Font assets (B612 and B612 Mono) for Conreality games.
+/// Font assets (in particular, the B612 font) for Conreality live-action
+/// games.
 ///
 /// {@canonicalFor b612.B612}
 /// {@canonicalFor b612_mono.B612Mono}

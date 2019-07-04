@@ -2,7 +2,7 @@
 name: conreality_compass
 version: 0.0.1
 description: >-
-  A compass widget for Conreality games.
+  A compass widget for Conreality live-action games.
 author: Conreality Team <conreality@googlegroups.com>
 homepage: https://github.com/conreality/conreality-widgets/tree/master/conreality_compass
 

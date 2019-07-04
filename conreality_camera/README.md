@@ -3,7 +3,7 @@ conreality_camera
 
 [![Project license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
 
-An augmented-reality camera widget for Conreality games.
+An augmented-reality camera widget for Conreality live-action games.
 
 Compatibility
 -------------
@@ -22,13 +22,14 @@ import 'package:conreality_camera/conreality_camera.dart';
 Installation
 ------------
 
-### `pubspec.yaml`
+### `pubspec.yaml` using Git
 
-    # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_camera
-    conreality_camera:
-      git:
-        url: https://github.com/conreality/conreality-widgets.git
-        path: conreality_camera
+    dependencies:
+      # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_camera
+      conreality_camera:
+        git:
+          url: https://github.com/conreality/conreality-widgets.git
+          path: conreality_camera
 
 ### `android/app/build.gradle`
 
