@@ -6,4 +6,4 @@
 /// {@canonicalFor distance_tracker.DistanceTracker}
 library conreality_tracker;
 
-export 'distance_tracker.dart' show DistanceTracker;
+export 'src/distance_tracker.dart' show DistanceTracker;

@@ -5,4 +5,4 @@
 /// {@canonicalFor camera.Camera}
 library conreality_camera;
 
-export 'camera.dart' show Camera;
+export 'src/camera.dart' show Camera;

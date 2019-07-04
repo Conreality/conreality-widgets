@@ -6,4 +6,4 @@
 /// {@canonicalFor dosimeter.Dosimeter}
 library conreality_dosimeter;
 
-export 'dosimeter.dart' show Dosimeter;
+export 'src/dosimeter.dart' show Dosimeter;

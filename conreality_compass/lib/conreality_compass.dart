@@ -5,4 +5,4 @@
 /// {@canonicalFor compass.Compass}
 library conreality_compass;
 
-export 'compass.dart' show Compass;
+export 'src/compass.dart' show Compass;
