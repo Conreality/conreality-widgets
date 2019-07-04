@@ -39,7 +39,7 @@ Installation
 ### `pubspec.yaml` using Pub
 
     dependencies:
-      conreality_fonts: ^1.0.0
+      conreality_fonts: ^1.0.1
 
 ### `pubspec.yaml` using Git
 

@@ -1,6 +1,6 @@
 # See: https://dart.dev/tools/pub/pubspec
 name: conreality_fonts
-version: 1.0.0
+version: 1.0.1
 description: >-
   Font assets (in particular, the B612 font) for Conreality live-action games.
 author: Conreality Team <conreality@googlegroups.com>
