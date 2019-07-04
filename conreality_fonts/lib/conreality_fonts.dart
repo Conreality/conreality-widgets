@@ -6,5 +6,5 @@
 /// {@canonicalFor b612_mono.B612Mono}
 library conreality_fonts;
 
-export 'b612.dart' show B612;
-export 'b612_mono.dart' show B612Mono;
+export 'src/b612.dart' show B612;
+export 'src/b612_mono.dart' show B612Mono;
