@@ -9,3 +9,11 @@ library conreality_fonts;
 
 export 'src/b612.dart' show B612;
 export 'src/b612_mono.dart' show B612Mono;
+
+/// The `conreality_fonts` plugin.
+abstract class ConrealityFonts {
+  ConrealityFonts._();
+
+  /// The current plugin version string.
+  static String get version => "1.0.2";
+}
