@@ -90,11 +90,12 @@ conreality_camera
 
 ::
 
-   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_camera
-   conreality_camera:
-     git:
-       url: https://github.com/conreality/conreality-widgets.git
-       path: conreality_camera
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_camera
+     conreality_camera:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_camera
 
 ::
 
@@ -107,11 +108,12 @@ conreality_chat
 
 ::
 
-   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_chat
-   conreality_chat:
-     git:
-       url: https://github.com/conreality/conreality-widgets.git
-       path: conreality_chat
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_chat
+     conreality_chat:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_chat
 
 ::
 
@@ -124,11 +126,12 @@ conreality_compass
 
 ::
 
-   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_compass
-   conreality_compass:
-     git:
-       url: https://github.com/conreality/conreality-widgets.git
-       path: conreality_compass
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_compass
+     conreality_compass:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_compass
 
 ::
 
@@ -141,11 +144,12 @@ conreality_countdown
 
 ::
 
-   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_countdown
-   conreality_countdown:
-     git:
-       url: https://github.com/conreality/conreality-widgets.git
-       path: conreality_countdown
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_countdown
+     conreality_countdown:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_countdown
 
 ::
 
@@ -158,11 +162,12 @@ conreality_dosimeter
 
 ::
 
-   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_dosimeter
-   conreality_dosimeter:
-     git:
-       url: https://github.com/conreality/conreality-widgets.git
-       path: conreality_dosimeter
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_dosimeter
+     conreality_dosimeter:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_dosimeter
 
 ::
 
@@ -175,11 +180,12 @@ conreality_fonts
 
 ::
 
-   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_fonts
-   conreality_fonts:
-     git:
-       url: https://github.com/conreality/conreality-widgets.git
-       path: conreality_fonts
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_fonts
+     conreality_fonts:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_fonts
 
 ::
 
@@ -192,11 +198,12 @@ conreality_gamepad
 
 ::
 
-   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_gamepad
-   conreality_gamepad:
-     git:
-       url: https://github.com/conreality/conreality-widgets.git
-       path: conreality_gamepad
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_gamepad
+     conreality_gamepad:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_gamepad
 
 ::
 
@@ -209,11 +216,12 @@ conreality_icons
 
 ::
 
-   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_icons
-   conreality_icons:
-     git:
-       url: https://github.com/conreality/conreality-widgets.git
-       path: conreality_icons
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_icons
+     conreality_icons:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_icons
 
 ::
 
@@ -226,11 +234,12 @@ conreality_joystick
 
 ::
 
-   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_joystick
-   conreality_joystick:
-     git:
-       url: https://github.com/conreality/conreality-widgets.git
-       path: conreality_joystick
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_joystick
+     conreality_joystick:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_joystick
 
 ::
 
@@ -243,11 +252,12 @@ conreality_login
 
 ::
 
-   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_login
-   conreality_login:
-     git:
-       url: https://github.com/conreality/conreality-widgets.git
-       path: conreality_login
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_login
+     conreality_login:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_login
 
 ::
 
@@ -260,11 +270,12 @@ conreality_logo
 
 ::
 
-   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_logo
-   conreality_logo:
-     git:
-       url: https://github.com/conreality/conreality-widgets.git
-       path: conreality_logo
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_logo
+     conreality_logo:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_logo
 
 ::
 
@@ -277,11 +288,12 @@ conreality_map
 
 ::
 
-   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_map
-   conreality_map:
-     git:
-       url: https://github.com/conreality/conreality-widgets.git
-       path: conreality_map
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_map
+     conreality_map:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_map
 
 ::
 
@@ -294,11 +306,12 @@ conreality_replay
 
 ::
 
-   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_replay
-   conreality_replay:
-     git:
-       url: https://github.com/conreality/conreality-widgets.git
-       path: conreality_replay
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_replay
+     conreality_replay:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_replay
 
 ::
 
@@ -311,11 +324,12 @@ conreality_tracker
 
 ::
 
-   # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_tracker
-   conreality_tracker:
-     git:
-       url: https://github.com/conreality/conreality-widgets.git
-       path: conreality_tracker
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_tracker
+     conreality_tracker:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_tracker
 
 ::
 
