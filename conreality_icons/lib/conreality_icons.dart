@@ -4,7 +4,8 @@
 library conreality_icons;
 
 import 'package:flutter/material.dart' show IconData;
-import 'package:material_design_icons_flutter/material_design_icons_flutter.dart' show MdiIcons;
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart'
+    show MdiIcons;
 
 /// The `conreality_icons` plugin.
 abstract class ConrealityIcons {
@@ -19,7 +20,8 @@ abstract class ConrealityIcons {
   static const IconData compass = MdiIcons.compassOutline;
   static const IconData countdown = MdiIcons.timer;
   static const IconData dosimeter = MdiIcons.radioactive;
-  static const IconData edgeDetection = MdiIcons.vectorPolyline; // TODO: better icon?
+  static const IconData edgeDetection =
+      MdiIcons.vectorPolyline; // TODO: better icon?
   static const IconData faceDetection = MdiIcons.face;
   static const IconData faceRecognition = MdiIcons.faceRecognition;
   static const IconData filter = MdiIcons.imageFilter;
@@ -36,7 +38,8 @@ abstract class ConrealityIcons {
   static const IconData microphone = MdiIcons.microphone;
   static const IconData motion = MdiIcons.motionSensor;
   static const IconData nfc = MdiIcons.nfcVariant;
-  static const IconData objectRecognition = MdiIcons.vectorEllipse; // TODO: better icon?
+  static const IconData objectRecognition =
+      MdiIcons.vectorEllipse; // TODO: better icon?
   static const IconData objectTracking = MdiIcons.goKartTrack;
   static const IconData plugin = MdiIcons.videoInputComponent;
   static const IconData pulse = MdiIcons.heartPulse;
