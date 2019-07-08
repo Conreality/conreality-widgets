@@ -1,0 +1,21 @@
+# See: https://dart.dev/tools/pub/pubspec
+name: conreality_detector
+version: 0.0.1
+description: >-
+  Anomaly and artifact detector widgets for Conreality live-action games.
+author: Conreality Team <conreality@googlegroups.com>
+homepage: https://github.com/conreality/conreality-widgets/tree/master/conreality_detector
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+  flutter: ">=1.5.4-hotfix.2 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

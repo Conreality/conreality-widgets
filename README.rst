@@ -44,7 +44,7 @@ Overview
      - Development
 
    * - `conreality_detector <#conreality_detector>`__
-     - TODO
+     - Anomaly and artifact detector widgets.
      - Planning
 
    * - `conreality_dosimeter <#conreality_dosimeter>`__
