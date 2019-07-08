@@ -43,6 +43,10 @@ Overview
      - Countdown timer widget.
      - Development
 
+   * - `conreality_detector <#conreality_detector>`__
+     - TODO
+     - Planning
+
    * - `conreality_dosimeter <#conreality_dosimeter>`__
      - Personal radiation dosimeter (Geiger counter) widget.
      - Functional but barebones
@@ -77,6 +81,10 @@ Overview
 
    * - `conreality_replay <#conreality_replay>`__
      - Game history replay widgets.
+     - Planning
+
+   * - `conreality_scene <#conreality_scene>`__
+     - TODO
      - Planning
 
    * - `conreality_tracker <#conreality_tracker>`__
@@ -154,6 +162,24 @@ conreality_countdown
 ::
 
    import 'package:conreality_countdown/conreality_countdown.dart';
+
+----
+
+conreality_detector
+===================
+
+::
+
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_detector
+     conreality_detector:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_detector
+
+::
+
+   import 'package:conreality_detector/conreality_detector.dart';
 
 ----
 
@@ -316,6 +342,24 @@ conreality_replay
 ::
 
    import 'package:conreality_replay/conreality_replay.dart';
+
+----
+
+conreality_scene
+================
+
+::
+
+   dependencies:
+     # See: https://github.com/conreality/conreality-widgets/tree/master/conreality_scene
+     conreality_scene:
+       git:
+         url: https://github.com/conreality/conreality-widgets.git
+         path: conreality_scene
+
+::
+
+   import 'package:conreality_scene/conreality_scene.dart';
 
 ----
 
