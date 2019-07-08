@@ -3,7 +3,7 @@
 /// Icon assets for Conreality live-action games.
 library conreality_icons;
 
-import 'package:flutter/material.dart' show IconData;
+import 'package:flutter/material.dart' show Icons, IconData;
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart'
     show MdiIcons;
 
@@ -45,7 +45,7 @@ abstract class ConrealityIcons {
   static const IconData plugin = MdiIcons.videoInputComponent;
   static const IconData pulse = MdiIcons.heartPulse;
   static const IconData replay = MdiIcons.mapClock;
-  static const IconData scene = MdiIcons.rotate3d;
+  static const IconData scene = Icons.threed_rotation;
   static const IconData script = MdiIcons.script;
   static const IconData sensor = MdiIcons.leak;
   static const IconData temperature = MdiIcons.temperatureCelsius;
