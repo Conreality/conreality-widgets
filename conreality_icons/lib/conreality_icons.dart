@@ -19,6 +19,7 @@ abstract class ConrealityIcons {
   static const IconData chat = MdiIcons.chat;
   static const IconData compass = MdiIcons.compassOutline;
   static const IconData countdown = MdiIcons.timer;
+  static const IconData detector = MdiIcons.radar; // TODO: better icon
   static const IconData dosimeter = MdiIcons.radioactive;
   static const IconData edgeDetection =
       MdiIcons.vectorPolyline; // TODO: better icon?
@@ -44,6 +45,7 @@ abstract class ConrealityIcons {
   static const IconData plugin = MdiIcons.videoInputComponent;
   static const IconData pulse = MdiIcons.heartPulse;
   static const IconData replay = MdiIcons.mapClock;
+  static const IconData scene = MdiIcons.rotate3d;
   static const IconData script = MdiIcons.script;
   static const IconData sensor = MdiIcons.leak;
   static const IconData temperature = MdiIcons.temperatureCelsius;
