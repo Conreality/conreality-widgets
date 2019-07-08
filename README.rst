@@ -57,7 +57,7 @@ Overview
 
    * - `conreality_icons <#conreality_icons>`__
      - Conreality icon assets.
-     - Development
+     - Stable
 
    * - `conreality_joystick <#conreality_joystick>`__
      - Joystick widget for robot control.
@@ -69,7 +69,7 @@ Overview
 
    * - `conreality_logo <#conreality_logo>`__
      - Conreality logo assets.
-     - Development
+     - Functional
 
    * - `conreality_map <#conreality_map>`__
      - Game map and marker widgets.
