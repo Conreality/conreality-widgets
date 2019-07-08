@@ -21,6 +21,12 @@ Examples
 import 'package:conreality_icons/conreality_icons.dart';
 ```
 
+### Using an icon asset
+
+```dart
+Icon(ConrealityIcons.dosimeter)
+```
+
 Installation
 ------------
 
@@ -28,7 +34,7 @@ Installation
 
     dependencies:
       # See: https://pub.dev/packages/conreality_icons
-      conreality_icons: ^0.0.1
+      conreality_icons: ^1.0.0
 
 ### `pubspec.yaml` using Git
 
