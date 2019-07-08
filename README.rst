@@ -84,7 +84,7 @@ Overview
      - Planning
 
    * - `conreality_scene <#conreality_scene>`__
-     - TODO
+     - 3D polygon mesh rendering widget.
      - Planning
 
    * - `conreality_tracker <#conreality_tracker>`__
