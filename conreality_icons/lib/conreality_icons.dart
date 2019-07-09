@@ -12,7 +12,7 @@ abstract class ConrealityIcons {
   ConrealityIcons._();
 
   /// The current plugin version string.
-  static String get version => "1.0.0";
+  static String get version => "1.0.1";
 
   static const IconData battery = MdiIcons.battery;
   static const IconData camera = MdiIcons.cameraEnhance;
@@ -52,4 +52,46 @@ abstract class ConrealityIcons {
   static const IconData tracker = MdiIcons.radar;
   static const IconData video = MdiIcons.video;
   static const IconData widget = MdiIcons.widgets;
+
+  /// Returns a map of all icon names to icon data.
+  static Map<String, IconData> toMap() {
+    return <String, IconData>{
+      'battery': battery,
+      'camera': camera,
+      'chat': chat,
+      'compass': compass,
+      'countdown': countdown,
+      'detector': detector,
+      'dosimeter': dosimeter,
+      'edgeDetection': edgeDetection,
+      'faceDetection': faceDetection,
+      'faceRecognition': faceRecognition,
+      'filter': filter,
+      'font': font,
+      'gamepad': gamepad,
+      'gps': gps,
+      'headset': headset,
+      'humidity': humidity,
+      'icon': icon,
+      'joystick': joystick,
+      'login': login,
+      'logo': logo,
+      'map': map,
+      'microphone': microphone,
+      'motion': motion,
+      'nfc': nfc,
+      'objectRecognition': objectRecognition,
+      'objectTracking': objectTracking,
+      'plugin': plugin,
+      'pulse': pulse,
+      'replay': replay,
+      'scene': scene,
+      'script': script,
+      'sensor': sensor,
+      'temperature': temperature,
+      'tracker': tracker,
+      'video': video,
+      'widget': widget,
+    };
+  }
 }

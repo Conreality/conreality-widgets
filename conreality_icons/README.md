@@ -34,7 +34,7 @@ Installation
 
     dependencies:
       # See: https://pub.dev/packages/conreality_icons
-      conreality_icons: ^1.0.0
+      conreality_icons: ^1.0.1
 
 ### `pubspec.yaml` using Git
 
