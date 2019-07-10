@@ -12,7 +12,7 @@ abstract class ConrealityIcons {
   ConrealityIcons._();
 
   /// The current plugin version string.
-  static String get version => "1.0.1";
+  static String get version => "1.0.2";
 
   static const IconData battery = MdiIcons.battery;
   static const IconData camera = MdiIcons.cameraEnhance;
@@ -29,7 +29,9 @@ abstract class ConrealityIcons {
   static const IconData font = MdiIcons.formatFont;
   static const IconData gamepad = MdiIcons.gamepadVariant;
   static const IconData gps = MdiIcons.crosshairsGps;
+  static const IconData headphones = MdiIcons.headphones;
   static const IconData headset = MdiIcons.headset;
+  static const IconData headsetOff = MdiIcons.headsetOff;
   static const IconData humidity = MdiIcons.waterPercent;
   static const IconData icon = MdiIcons.emoticonCoolOutline;
   static const IconData joystick = MdiIcons.cameraControl;
@@ -70,7 +72,9 @@ abstract class ConrealityIcons {
       'font': font,
       'gamepad': gamepad,
       'gps': gps,
+      'headphones': headphones,
       'headset': headset,
+      'headsetOff': headsetOff,
       'humidity': humidity,
       'icon': icon,
       'joystick': joystick,
