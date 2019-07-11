@@ -36,3 +36,10 @@ Installation
     <manifest ...
       <!-- See: https://developer.android.com/reference/android/Manifest.permission#INTERNET -->
       <uses-permission android:name="android.permission.INTERNET"/>
+
+See Also
+--------
+
+Follow [@ConrealityCode](https://twitter.com/ConrealityCode) and
+[@ConrealityGame](https://twitter.com/ConrealityGame) on Twitter for
+project updates.

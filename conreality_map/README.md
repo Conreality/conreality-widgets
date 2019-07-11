@@ -67,3 +67,10 @@ Installation
       <dict ...
         <key>io.flutter.embedded_views_preview</key>
         <true/>
+
+See Also
+--------
+
+Follow [@ConrealityCode](https://twitter.com/ConrealityCode) and
+[@ConrealityGame](https://twitter.com/ConrealityGame) on Twitter for
+project updates.

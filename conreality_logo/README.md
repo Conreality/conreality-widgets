@@ -38,3 +38,10 @@ Installation
         git:
           url: https://github.com/conreality/conreality-widgets.git
           path: conreality_logo
+
+See Also
+--------
+
+Follow [@ConrealityCode](https://twitter.com/ConrealityCode) and
+[@ConrealityGame](https://twitter.com/ConrealityGame) on Twitter for
+project updates.

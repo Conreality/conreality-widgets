@@ -51,3 +51,10 @@ Installation
         <string>Can I use the camera please?</string>
         <key>NSMicrophoneUsageDescription</key>
         <string>Can I use the mic please?</string>
+
+See Also
+--------
+
+Follow [@ConrealityCode](https://twitter.com/ConrealityCode) and
+[@ConrealityGame](https://twitter.com/ConrealityGame) on Twitter for
+project updates.
