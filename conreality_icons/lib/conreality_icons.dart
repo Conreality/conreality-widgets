@@ -12,9 +12,10 @@ abstract class ConrealityIcons {
   ConrealityIcons._();
 
   /// The current plugin version string.
-  static String get version => "1.0.2";
+  static String get version => "1.0.3";
 
   static const IconData battery = MdiIcons.battery;
+  static const IconData beacon = MdiIcons.radioTower; // TODO: better icon
   static const IconData camera = MdiIcons.cameraEnhance;
   static const IconData chat = MdiIcons.chat;
   static const IconData compass = MdiIcons.compassOutline;
@@ -59,6 +60,7 @@ abstract class ConrealityIcons {
   static Map<String, IconData> toMap() {
     return <String, IconData>{
       'battery': battery,
+      'beacon': beacon,
       'camera': camera,
       'chat': chat,
       'compass': compass,
