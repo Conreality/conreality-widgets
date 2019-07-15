@@ -22,22 +22,39 @@ class DistanceTracker extends StatefulWidget {
 
 class _DistanceTrackerState extends State<DistanceTracker> {
   StreamSubscription<double> _subscription;
-  double _measurement = 0;
+  double _measurement;
 
   @override
   void initState() {
     super.initState();
-    _subscription = widget.stream.listen((double measurement) {
-      setState(() {
-        _measurement = measurement;
-      });
-    });
+    _subscribeToStream();
+  }
+
+  @override
+  void didUpdateWidget(final DistanceTracker oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (widget.stream != oldWidget.stream) {
+      _subscribeToStream();
+    }
   }
 
   @override
   void dispose() async {
     super.dispose();
     await _subscription?.cancel();
+    _subscription = null;
+  }
+
+  void _subscribeToStream() async {
+    await _subscription?.cancel();
+    _subscription = null;
+    if (widget.stream != null) {
+      _subscription = widget.stream.listen((double measurement) {
+        setState(() {
+          _measurement = measurement;
+        });
+      });
+    }
   }
 
   @override
@@ -51,7 +68,7 @@ class _DistanceTrackerState extends State<DistanceTracker> {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
-        Text(_measurement.toString(), style: numberStyle),
+        Text((_measurement != null) ? _measurement.toStringAsFixed(2) : "N/A", style: numberStyle),
         Text(widget.unit, style: unitsStyle),
       ],
     );
